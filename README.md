@@ -1,12 +1,33 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a personal portfolio site built with **React** and **Vite**. It showcases my background, skills and projects through a set of simple pages.
+Routing between pages is managed with **React Router DOM** for a smooth, single-page application experience.
 
-Currently, two official plugins are available:
+## Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home** – Landing page with a short introduction.
+- **About** – Information about my professional background and interests.
+- **Resume** – A downloadable PDF of my resume.
+- **Projects** – Highlights of selected work with images and descriptions.
+- **Contact** – Formspree-powered contact form to reach me directly.
 
-## Expanding the ESLint configuration
+## Common Commands
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install      # install dependencies
+npm run dev      # start a local development server
+npm run lint     # run ESLint on the project
+npm run build    # create a production build
+npm run preview  # preview the built app locally
+```
+
+## Directory Structure
+
+- `src/` – React components, styles and entry point.
+- `public/` – static assets including images and resume.pdf.
+- `index.html` – main HTML file loaded by Vite.
+- `vite.config.js` – Vite configuration.
+
+The contact page posts form submissions to Formspree so messages can be delivered to my email without a custom backend.
+
+
