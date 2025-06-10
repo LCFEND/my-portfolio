@@ -22,9 +22,9 @@ const Projects = () => {
 
                             <p><strong>Key Features:</strong></p>
                             <ul>
-                                <li>🔍 Doctor Search</li>
-                                <li>🗣️ Consultation Feedback</li>
-                                <li>👤 User Profiles & Booking</li>
+                                <li>Doctor Search</li>
+                                <li>Consultation Feedback</li>
+                                <li>User Profiles & Booking</li>
                             </ul>
 
                             <p><strong>Tech Stack:</strong> React, Express (mock backend), LowDB, Docker, Webpack, Babel</p>
@@ -41,8 +41,17 @@ const Projects = () => {
                         <p className="brief">A multi-page personal site using React...</p>
                         <div className="more-info">
                             This is my personal portfolio, built with React and React Router DOM. For testing, I integrated Formspree for email functionality. It showcases clean structure and reusable components.
+                            <p><strong>Key Features:</strong></p>
+                            <ul>
+                                <li>Multi-page routing via React Router, with paths for “Home,” “About,” “Resume,” “Projects,” and “Contact.</li>
+                                <li>SPA bootstrap with Vite, where BrowserRouter wraps the app for navigation</li>
+                                <li>Portfolio Pages: Home, About, Resume, Projects, Contact showcases my accomplishments and professional experience</li>
+                                <li>Contact: Form with validation and Formspree integration for submissions.</li>
+                                <li>Styling: Responsive, animated layouts using component-specific CSS and media queries.</li>
+                            </ul>
+
                         </div>
-                        <a href="https://yourprojectlinks.com" target="_blank" rel="noopener noreferrer">View Project</a>
+                        <a href="https://github.com/LCFEND/my-portfolio" target="_blank" rel="noopener noreferrer">View Project</a>
                     </div>
                 </div>
 
