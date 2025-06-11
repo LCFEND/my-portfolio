@@ -12,7 +12,7 @@
 
 .project-cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Always 2 columns */
+    grid-template-columns: repeat(2, 2fr); /* Always 2 columns */
     gap: 40px;
     margin-top: 40px;
 }

@@ -16,15 +16,11 @@ const Projects = () => {
 
                         <div className="more-info">
                             <p>This web application was built during my studies the project involved building a medical App for StayHealthy Inc., a non-profit improving healthcare access in remote areas.</p>
-                            <p>Completing it was especially rewarding, as it reinforced the importance of persistence and resilience—both essential in this profession.</p>
-
-                            <p><strong>My Role:</strong> Front-end developer — designed and built the UI.</p>
-
                             <p><strong>Key Features:</strong></p>
                             <ul>
-                                <li>Doctor Search</li>
-                                <li>Consultation Feedback</li>
-                                <li>User Profiles & Booking</li>
+                                <li>Appointment Booking: The DoctorCard component saves doctor and appointment details to localStorage. When an appointment is canceled, the data is cleared and a storage event is dispatched to notify other components.</li>
+                                <li>Notifications: The Notification component listens to localStorage changes and displays appointment details if a user is logged in.</li>
+                                <li>Profile Management: ProfileCard fetches or updates user information through the mock API, storing results in sessionStorage for quick access </li>
                             </ul>
 
                             <p><strong>Tech Stack:</strong> React, Express (mock backend), LowDB, Docker, Webpack, Babel</p>
